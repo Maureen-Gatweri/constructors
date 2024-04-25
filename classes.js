@@ -61,18 +61,18 @@ class Car{
     //and the Quiz class will manage a collection of questions and the user's progress. 
 
 
-    const firstQuestion = new Question("How many planets do we have?",[10,9,2,13,4,5,33,7,8],8)
+    const firstQuestion = new Question("How many objects methods are in JavaScript?",[10,9,2,13,4,5,33,7,8],9)
     console.log({firstQuestion});
     console.log(firstQuestion.text);
     console.log(firstQuestion.options);
     console.log(firstQuestion.correctAnswer);
     firstQuestion.checkAnswer(3)
     firstQuestion.checkAnswer(8)
-    const secondQuestion = new Question("How many countries are in Kenya?",[47,65,23,12],47)
+    const secondQuestion = new Question("How many types of cars do we have in the world?",[47,65,60,12,6,1],12)
     console.log({secondQuestion});
     const thirdQuestion = new Question("What is the cleanest city in Kenya?",["Nairobi","Nyeri","Meru","Eldoret", "Karen"],"Nairobi")
     console.log({thirdQuestion});
-    const fourthQuestion = new Question("Who is the best  Afro fusion musician in the world",["Davido","ArrowBwoy","Kayet","Bien","Ayra"],"Kayet")
+    const fourthQuestion = new Question("Who is the best  female dancer in Kenya",["Ajib","Nkatha","Kayet","Kendi","Ayra"],"Kayet")
     console.log({fourthQuestion});
     const lastQuestion = [fourthQuestion]
     console.log(lastQuestion);
